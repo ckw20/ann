@@ -1,0 +1,6 @@
+{ 'learning_rate': 0.28, 'weight_decay': 0.00, 'momentum': 0.05, 'batch_size': 50, 'max_epoch': 100, 'disp_freq': 100, 'test_epoch': 1 }
+2
+784 512 Sigmoid
+512 10 Sigmoid
+Euclidean
+./result/result3.png

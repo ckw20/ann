@@ -1,0 +1,5 @@
+config = {'learning_rate': 0.28, 'weight_decay': 0.0, 'momentum': 0.05, 'batch_size': 50, 'max_epoch': 100, 'disp_freq': 100, 'test_epoch': 1}
+layer 0 : in_num = 784 out_num = 10 Sigmoid
+loss_function = EuclideanLoss
+train_loss : 0.07473 train_acc : 92.20667%
+test_loss : 0.07468 train_acc : 92.15000%

@@ -1,0 +1,9 @@
+{ 'learning_rate': 0.28, 'weight_decay': 0.00, 'momentum': 0.05, 'batch_size': 50, 'max_epoch': 100, 'disp_freq': 100, 'test_epoch': 1 }
+5
+784 512 LeakyRelu 0.05
+512 256 Gelu
+256 128 Sigmoid
+128 64 LeakyRelu 0.3
+64 10 LeakyRelu 0.03
+SoftmaxCrossEntropy
+./result/result2.png
